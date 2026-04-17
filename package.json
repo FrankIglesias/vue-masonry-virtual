@@ -1,0 +1,79 @@
+{
+  "name": "vue-virtual-masonry",
+  "version": "0.1.0",
+  "description": "Virtualized masonry grid component for Vue 3 — only renders what's visible, handles dynamic heights automatically",
+  "type": "module",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite",
+    "build:lib": "vite build --mode lib",
+    "build:demo": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^17.5.0",
+    "jsdom": "^29.0.2",
+    "prettier": "^3.8.3",
+    "typescript": "^5.3.0",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^4.5.4",
+    "vitest": "^1.0.0",
+    "vue": "^3.4.0",
+    "vue-tsc": "^2.0.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "masonry",
+    "virtual",
+    "virtualization",
+    "virtual-scroll",
+    "grid",
+    "layout",
+    "composable"
+  ],
+  "author": {
+    "name": "Francisco Iglesias",
+    "email": "ifrancisco.iglesias@gmail.com",
+    "url": "https://github.com/FrankIglesias"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrankIglesias/vue-virtual-masonry.git"
+  },
+  "homepage": "https://github.com/FrankIglesias/vue-virtual-masonry#readme",
+  "bugs": {
+    "url": "https://github.com/FrankIglesias/vue-virtual-masonry/issues"
+  }
+}
