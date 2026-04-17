@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { shallowRef } from 'vue'
-import { VirtualMasonry } from 'vue-virtual-masonry'
+import { VirtualMasonry } from 'vue-masonry-virtual'
 
 const EXTRA = 'The layout engine detected a height change via ResizeObserver and repositioned all items below this card automatically — no manual intervention needed.'
 

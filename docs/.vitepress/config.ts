@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 import { resolve } from 'path'
 
 export default defineConfig({
-  title: 'vue-virtual-masonry',
+  title: 'vue-masonry-virtual',
   description: 'Virtualized masonry grid component for Vue 3',
   base: process.env.DOCS_BASE ?? '/',
 
   head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
 
   themeConfig: {
-    logo: { light: '/logo-light.svg', dark: '/logo-dark.svg', alt: 'vue-virtual-masonry' },
+    logo: { light: '/logo-light.svg', dark: '/logo-dark.svg', alt: 'vue-masonry-virtual' },
 
     nav: [
       { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
@@ -17,8 +17,8 @@ export default defineConfig({
       {
         text: '0.1.0',
         items: [
-          { text: 'Changelog', link: 'https://github.com/FrankIglesias/vue-virtual-masonry/releases' },
-          { text: 'Contributing', link: 'https://github.com/FrankIglesias/vue-virtual-masonry/blob/main/README.md#contributing' },
+          { text: 'Changelog', link: 'https://github.com/FrankIglesias/vue-masonry-virtual/releases' },
+          { text: 'Contributing', link: 'https://github.com/FrankIglesias/vue-masonry-virtual/blob/main/README.md#contributing' },
         ],
       },
     ],
@@ -38,8 +38,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/FrankIglesias/vue-virtual-masonry' },
-      { icon: 'npm', link: 'https://www.npmjs.com/package/vue-virtual-masonry' },
+      { icon: 'github', link: 'https://github.com/FrankIglesias/vue-masonry-virtual' },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/vue-masonry-virtual' },
     ],
 
     search: { provider: 'local' },
@@ -50,7 +50,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/FrankIglesias/vue-virtual-masonry/edit/main/docs/:path',
+      pattern: 'https://github.com/FrankIglesias/vue-masonry-virtual/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
   },
@@ -58,7 +58,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        'vue-virtual-masonry': resolve(__dirname, '../../src/index.ts'),
+        'vue-masonry-virtual': resolve(__dirname, '../../src/index.ts'),
       },
     },
   },

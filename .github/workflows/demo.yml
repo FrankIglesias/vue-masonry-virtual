@@ -32,7 +32,7 @@ jobs:
 
       - run: npm run docs:build
         env:
-          DOCS_BASE: /vue-virtual-masonry/
+          DOCS_BASE: /vue-masonry-virtual/
 
       - uses: actions/configure-pages@v4
 

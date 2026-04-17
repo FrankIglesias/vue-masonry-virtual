@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "vue-virtual-masonry"
+  name: "vue-masonry-virtual"
   text: "Virtualized masonry grid for Vue 3"
   tagline: Renders only what's visible. Handles any height. Zero config.
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /guide/api
     - theme: alt
       text: View on GitHub
-      link: https://github.com/FrankIglesias/vue-virtual-masonry
+      link: https://github.com/FrankIglesias/vue-masonry-virtual
 
 features:
   - icon: ⚡️

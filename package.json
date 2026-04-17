@@ -1,5 +1,5 @@
 {
-  "name": "vue-virtual-masonry",
+  "name": "vue-masonry-virtual",
   "version": "0.1.0",
   "description": "Virtualized masonry grid component for Vue 3 — only renders what's visible, handles dynamic heights automatically",
   "type": "module",
@@ -74,10 +74,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FrankIglesias/vue-virtual-masonry.git"
+    "url": "https://github.com/FrankIglesias/vue-masonry-virtual.git"
   },
-  "homepage": "https://github.com/FrankIglesias/vue-virtual-masonry#readme",
+  "homepage": "https://frankiglesias.github.io/vue-masonry-virtual/",
   "bugs": {
-    "url": "https://github.com/FrankIglesias/vue-virtual-masonry/issues"
+    "url": "https://github.com/FrankIglesias/vue-masonry-virtual/issues"
   }
 }

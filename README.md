@@ -1,12 +1,12 @@
-# vue-virtual-masonry
+# vue-masonry-virtual
 
-[![CI](https://img.shields.io/github/actions/workflow/status/FrankIglesias/vue-virtual-masonry/ci.yml?label=CI&logo=github)](https://github.com/FrankIglesias/vue-virtual-masonry/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/vue-virtual-masonry?color=41b883&logo=npm)](https://www.npmjs.com/package/vue-virtual-masonry)
+[![CI](https://img.shields.io/github/actions/workflow/status/FrankIglesias/vue-masonry-virtual/ci.yml?label=CI&logo=github)](https://github.com/FrankIglesias/vue-masonry-virtual/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/vue-masonry-virtual?color=41b883&logo=npm)](https://www.npmjs.com/package/vue-masonry-virtual)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Vue 3](https://img.shields.io/badge/Vue-3-41b883?logo=vuedotjs)](https://vuejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6?logo=typescript)](https://www.typescriptlang.org)
 
-**[📖 Documentation](https://frankiglesias.github.io/vue-virtual-masonry/)**
+**[📖 Documentation](https://frankiglesias.github.io/vue-masonry-virtual/)**
 
 A high-performance **virtualized masonry grid** for Vue 3. Renders only the items visible in the viewport — no matter how many thousands of items you have — and handles dynamic heights automatically via `ResizeObserver`.
 
@@ -27,7 +27,7 @@ A high-performance **virtualized masonry grid** for Vue 3. Renders only the item
 ## Installation
 
 ```bash
-npm install vue-virtual-masonry
+npm install vue-masonry-virtual
 ```
 
 ---
@@ -36,7 +36,7 @@ npm install vue-virtual-masonry
 
 ```vue
 <script setup lang="ts">
-import { VirtualMasonry } from 'vue-virtual-masonry'
+import { VirtualMasonry } from 'vue-masonry-virtual'
 
 const items = Array.from({ length: 1000 }, (_, i) => ({ id: i, text: `Item ${i}` }))
 </script>
@@ -194,8 +194,8 @@ Always set `getKey` when your items have stable IDs — it prevents unnecessary 
 ## Local Development
 
 ```bash
-git clone https://github.com/FrankIglesias/vue-virtual-masonry.git
-cd vue-virtual-masonry
+git clone https://github.com/FrankIglesias/vue-masonry-virtual.git
+cd vue-masonry-virtual
 npm install
 
 # Start the demo app

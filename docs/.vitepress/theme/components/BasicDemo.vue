@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { VirtualMasonry } from 'vue-virtual-masonry'
+import { VirtualMasonry } from 'vue-masonry-virtual'
 
 const COLORS = ['#e8f4fd','#fef9e7','#eafaf1','#fdf2f8','#f0f4c3','#e8eaf6','#fce4ec','#e0f2f1']
 const LOREM = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'

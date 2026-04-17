@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { VirtualMasonry } from 'vue-virtual-masonry'
+import { VirtualMasonry } from 'vue-masonry-virtual'
 
 const ASPECT_RATIOS = [
   { ratio: '16 / 9', w: 640, h: 360 },

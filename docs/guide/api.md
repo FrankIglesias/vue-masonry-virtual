@@ -42,7 +42,7 @@ Access via a template ref:
 ```vue
 <script setup>
 import { ref } from 'vue'
-import { VirtualMasonry } from 'vue-virtual-masonry'
+import { VirtualMasonry } from 'vue-masonry-virtual'
 
 const masonry = ref()
 </script>
@@ -71,7 +71,7 @@ import type {
   MasonryLayout,
   VirtualMasonryProps,
   VisibleItem,
-} from 'vue-virtual-masonry'
+} from 'vue-masonry-virtual'
 ```
 
 ### `ColumnBreakpoints`
@@ -113,7 +113,7 @@ The three composables that power the component are also exported for advanced us
 Resolves the active column count from a fixed number or responsive breakpoint map. Observes container width changes via `ResizeObserver`.
 
 ```ts
-import { useColumns } from 'vue-virtual-masonry'
+import { useColumns } from 'vue-masonry-virtual'
 
 const { columnCount, containerWidth } = useColumns(containerRef, columnsRef)
 ```
@@ -123,7 +123,7 @@ const { columnCount, containerWidth } = useColumns(containerRef, columnsRef)
 Pure masonry layout algorithm. Places each item in the shortest column, returns absolute positions and total height. Recomputes reactively whenever inputs change.
 
 ```ts
-import { useMasonryLayout } from 'vue-virtual-masonry'
+import { useMasonryLayout } from 'vue-masonry-virtual'
 
 const layout = useMasonryLayout(itemCount, columnCount, containerWidth, gap, heights)
 // layout.value → { positions: ItemPosition[], totalHeight: number }
@@ -134,7 +134,7 @@ const layout = useMasonryLayout(itemCount, columnCount, containerWidth, gap, hei
 Tracks scroll position inside a container and returns only the items whose positions overlap the visible viewport plus overscan buffer.
 
 ```ts
-import { useVirtualization } from 'vue-virtual-masonry'
+import { useVirtualization } from 'vue-masonry-virtual'
 
 const { visibleItems, scrollTop, containerHeight } = useVirtualization(
   containerRef,

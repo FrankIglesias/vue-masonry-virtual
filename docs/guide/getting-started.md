@@ -5,15 +5,15 @@
 ::: code-group
 
 ```bash [npm]
-npm install vue-virtual-masonry
+npm install vue-masonry-virtual
 ```
 
 ```bash [pnpm]
-pnpm add vue-virtual-masonry
+pnpm add vue-masonry-virtual
 ```
 
 ```bash [yarn]
-yarn add vue-virtual-masonry
+yarn add vue-masonry-virtual
 ```
 
 :::
@@ -26,7 +26,7 @@ yarn add vue-virtual-masonry
 
 ```vue
 <script setup lang="ts">
-import { VirtualMasonry } from 'vue-virtual-masonry'
+import { VirtualMasonry } from 'vue-masonry-virtual'
 
 const items = Array.from({ length: 1000 }, (_, i) => ({
   id: i,

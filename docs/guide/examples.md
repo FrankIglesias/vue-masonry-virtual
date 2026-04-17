@@ -135,7 +135,7 @@ import {
   useColumns,
   useMasonryLayout,
   useVirtualization,
-} from 'vue-virtual-masonry'
+} from 'vue-masonry-virtual'
 
 const containerRef = ref(null)
 
