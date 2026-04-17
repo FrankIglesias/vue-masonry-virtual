@@ -28,7 +28,10 @@
     "lint:check": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "peerDependencies": {
     "vue": "^3.3.0"
@@ -47,6 +50,7 @@
     "typescript-eslint": "^8.58.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^4.5.4",
+    "vitepress": "^1.6.4",
     "vitest": "^1.0.0",
     "vue": "^3.4.0",
     "vue-tsc": "^2.0.0"

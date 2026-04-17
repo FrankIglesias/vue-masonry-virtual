@@ -6,6 +6,8 @@
 [![Vue 3](https://img.shields.io/badge/Vue-3-41b883?logo=vuedotjs)](https://vuejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6?logo=typescript)](https://www.typescriptlang.org)
 
+**[📖 Documentation](https://frankiglesias.github.io/vue-virtual-masonry/)**
+
 A high-performance **virtualized masonry grid** for Vue 3. Renders only the items visible in the viewport — no matter how many thousands of items you have — and handles dynamic heights automatically via `ResizeObserver`.
 
 ---

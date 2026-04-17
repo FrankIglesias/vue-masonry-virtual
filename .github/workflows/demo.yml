@@ -1,4 +1,4 @@
-name: Deploy Demo
+name: Deploy Docs
 
 on:
   push:
@@ -30,15 +30,15 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run build:demo
+      - run: npm run docs:build
         env:
-          VITE_BASE: /vue-virtual-masonry/
+          DOCS_BASE: /vue-virtual-masonry/
 
       - uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: docs/.vitepress/dist
 
       - uses: actions/deploy-pages@v4
         id: deployment

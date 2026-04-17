@@ -6,7 +6,7 @@ import configPrettier from 'eslint-config-prettier'
 
 export default tseslint.config(
   // Ignore generated / dependency output
-  { ignores: ['dist/**', 'node_modules/**'] },
+  { ignores: ['dist/**', 'node_modules/**', 'docs/.vitepress/dist/**', 'docs/.vitepress/cache/**'] },
 
   // Base JS rules
   pluginJs.configs.recommended,
