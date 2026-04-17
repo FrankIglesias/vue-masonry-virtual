@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Column 1: tall then short -->
+  <rect x="1"  y="1"  width="9" height="17" rx="2" fill="#4eca95"/>
+  <rect x="1"  y="20" width="9" height="11" rx="2" fill="#4eca95" opacity="0.5"/>
+  <!-- Column 2: short then tall -->
+  <rect x="12" y="1"  width="9" height="11" rx="2" fill="#4eca95" opacity="0.5"/>
+  <rect x="12" y="14" width="9" height="17" rx="2" fill="#4eca95"/>
+  <!-- Column 3: medium then medium -->
+  <rect x="23" y="1"  width="8" height="14" rx="2" fill="#4eca95"/>
+  <rect x="23" y="17" width="8" height="14" rx="2" fill="#4eca95" opacity="0.5"/>
+</svg>
